@@ -1,0 +1,956 @@
+title,heading,content
+Product-Pricing,Products,"In this section, you will be able to create and manage the product catalog for your subscription business. To sell subscriptions to your customers, you must create and configure your product or service. You can create any number of products for the product catalog and associate a wide range of price plans and charges to each product. The simplified configuration features enable rapid time to market and the ability to adjust your product offerings to your customer and market needs. The different components of the product catalog are products, price plans and charges, and the available price models that you can use to create custom price plans."
+Product-Pricing,Services,"In this section, a business user can define a Service to map the product sold to a downstream service provisioning. The Service definition works along with the provisioning parameter definition under a plan, and the OneBill provisioning module to map the sale of a product to the downstream provisioning."
+Product-Pricing,Bundles,"In this section, you will be able to define product bundles or packages to combine one or more products / priceplans into a package. This would enable a business to cross-sell or up-sell their products."
+Product-Pricing,Promotions ,"This section allows a business to define promotions like coupons,discounts, grants etc. Promotions can be used to provide a compelling offering to the subscriber creating a competitive pricing edge for the business."
+Product-Pricing,Rules,"This section has the list of various business rules defined in the system. A business user can setup rules for managing order operations, or to manage how the price for a particular product is derived."
+Product-Pricing,What is a product?:,"A physical or tangible entity/item which is sold by a company to their customers is termed as a product. However, in the subscription industry, a product is more of an intangible service that a company offers to their customers. A customer in the subscription industry is typically subscribed to a product on a recurring pay basis rather than buying it at a onetime price. The internet connection and the telephone connection in our houses are the best examples of a product in the subscription industry. Users pay for the aforementioned products as they use on a monthly and on a recurring basis. A product in OneBill application, much like the above scenario is yet another item/service along with other data such as charge details, price plans, and other similar parameters. A product in the OneBill application can have various Price Plans. The Price Plans, in turn, flaunt several charge details which basically describe how a customer will be charged. The Price Plan along with its charge details together defines and describes what a product in OneBill really is. The list of all the products along with their details are present in the Product Catalog as explained in the section below. Customers are subscribed to these products as per their requirement"
+Product-Pricing,What is a Product Catalog?,"A product catalog is basically a collection of all of the products that a business has to offer to their subscribers; listed together in an order along with its other necessary details such as price plan, charge details, Add-ons, category, and the status of the product. A collection of several products is known as a Bundle. In this section, you will learn how the product catalog is built for your business. The different components of the product catalog have been detailed below as follows: Product: Product is any physical good or a service that you provide to your end subscribers.
+Price Plan: Price plans are the different flavors/plans offered to buy a product. Price plan can include
+one or more charges that are applied when a subscriber buys a product/service. Each product can have
+one or more price plans.
+Price plan charge: Each price plan can have one or more charges defined in it. Charges can be onetime like a purchase fee, recurring like a monthly subscription charge or a metered fee like a fixed fee
+for every movie view.
+A business needs to set-up products in the system before they can sign up subscribers. You can create any
+number of products for the product catalog and associate a wide range of price plans and charges to each
+product. Refer to Create a new product; Create a Price Plan for the Product and Define Charge Details.
+These simplified configuration features enable rapid time to market and the ability to adjust your product
+offerings to your subscriber and market needs."
+Product-Pricing,What is the Product Listing Page?,"The Product listing page displays a list of both active and inactive products. Product availability is defined by the dates set in the Available From and Available To fields. The Product listing page allows you to sort by the various properties of the product like Product Name, Category, Status, and Action."
+Product-Pricing,How to Create a product in OneBill?,"Creating a product in the OneBill application is extremely simple. This following section guides you through the process of ""How to create a new product"" in the application. The user can create base products or addon products from this page. To know more about Add-ons, refer Add-On Product. To create a Product (Base or Add-on): 1. Navigate to the main navigational menu in the left panel and select Products under Pricing Studio. The Products Listing screen appears.The Product screen allows you to create Base Products and Add-on Products.
+2. The Base product is shown by default in the product listing page. To create an add-on product, first
+click on the Add-on tab and click on the ""Create Product"" button:3. Once you have made your choice of creating Base or Add-on product, click on Create Product Button"
+Product-Pricing,How to create product information?,"Entering the exact product information for a product in the OneBill application is very easy. This section explains the different fields that are required to be filled in order to provide the complete the product information. You can give a name to your product, describe the product, add an image to the product and also define the availability dates of purchase for the product. To input the Product Information, perform the following steps: 1. Navigate to Pricing Studio -> Products 2. Click on the Create Product button on the top right corner of the screen.  3. The Create A New Product page appearsInformation Fields:
+The following fields are required to be input in order to complete the ""Create Product Information""
+procedure.
+Product Name: This is the name of the product as it appears in the catalog. The product name can
+be up to 64 characters and can accept alphabets, numeric values, and certain special character.
+Please note that the system would not be able to create products if the length of product name
+exceeds the prescribed value.
+Description: This is the description associated with the product. The description is shown in the
+catalog and helps the user of a business as well as a subscriber to know more about a product.
+Image: The right section of the product has an image that can be associated with the product. This
+image would be shown on the catalog in both CSR channel as well as self-care. Select Choose a File
+option to browse for an image and upload it for the product.Category: The field specifies the category under which the product would be listed. Categories are
+used to group products that are related to helping the business organize their product catalog. The user can choose from one of the available categories or define a new category from here. There can
+be one or more categories linked to a product. For creating a new category, refer Create New
+Category.
+Available From: The field is a calendar drop-down from when a date can be selected. This date
+controls from when the product is available for purchase. By default, OneBill considers the current
+calendar date.
+Available To: This field determines the date when the product is taken out of the catalog listing. By
+default, the value is set as Does Not Expire, which means that the product is always available for
+purchase. The user can uncheck the Does Not Expire option and choose a date from when the
+product would be taken out of catalog listing. Product Code: This field is used to specify a code to be linked to the product. If your business uses
+an SKU code or so, the information can be entered here. This is an optional field, and the system
+auto-generates the code if the field is not specified. This field is an alphanumeric field and the
+following special characters &, -
+Regulatory Code: If Suretax is enabled as the external tax vendor, an additional field called as the
+Regulatory code is displayed. This field is one of the fields that drive how the charges for the product
+are taxed. There are a set of pre-defined codes available for the user to choose from. Talk to your
+tax consultant to find the regulatory code for your business.
+Service Name: This field is required to be filled to associate a service name to the product. If the
+product being created belongs to any specific service offerings of the business; this field can be
+used to associate the two together."
+Product-Pricing,Create New Category,"What is a Product Category? A product category as the name suggests is basically used to categorize a product. Creating a category for the product or associating a product with a specific category helps you to group your products which are to be shown in the catalog. Refer to Place Order for how the categorization of products is shown in order You can create a new category for your product if the default choice of category does not specify your choice. How to create a new category? In order to create a new category for a product at the time of defining a new product perform the following steps given below in the order mentioned. 1. Navigate to the Category field as follows: Pricing Studio -> Products -> Create New Product -> Category Field. 2. Start typing the category name in the Category text box. 3. If the category does not exist in the system, a ""Create New"" link would be shown on the page. 4. Click on Create New and the category would be saved in the system."
+Product-Pricing,What is a Price Plan?,"The price plan is a specific flavor/variant of a product being sold. The price plan contains one or more charges that are associated with the product which the end subscriber pays upon the purchase of the product. Each price plan can be defined as one or more charges and optionally one or more promotions like 10% off. Price plans determine how frequently the subscriber gets charged for his subscriptions. Every product defined in the system should have at least one Price plan associated with it. There is no limit on the number of Price plans that is associated with a product. Price plan determines the way a subscriber is charged with configurations like how much charge, application frequency, discounts etc. A price plan can be added to a product at the time of product creation or at a later point in time by editing the product."
+Product-Pricing,How to navigate to the price plan section?,"A user can navigate to the price plan section in order to create a price plan for any product. To navigate to the price plan section, follow the steps below accordingly. In the main panel to the left, go to Pricing Studio -> Products.Click on the Create Product button Scroll down to the Price Plan section the same page."
+Product-Pricing,How to create a Price Plan for a product?,"Price Plan Name - Enter a Price Plan Name to be shown in the catalog. The maximum length for this field is 64 characters. Price plan name accepts alphabets, numerals and certain special characters like () - / etc Description- Enter a Description for the price plan. This description can be shown in the catalog for an end subscriber. This description does not show up in the CSR catalog. Available From- Select the date from the Available From field. The Available From date identifies when a Price Plan becomes available to purchase. By default current system date is selected as the Available From date. The user can also set a future date in this field, but the user cannot select a date in the past. Availability dates helps a business control the time duration during which the plan is available for purchase Available To- Select the date from the Available To field. The Available To date identifies when a price plan terminates and is no longer available for purchase. It is also removed from the catalog till midnight of this date. The default value would be Does Not Expire. Selecting this option would ensure that the price plan is available all the time. The price plan would not be shown in catalog b0eyond the Available To date. Any subscriber who already has subscribed to an expired plan would be able to use the plan even beyond the available to date. But new purchases for this price plan would not be supported beyond this date. Term - Optionally enter the default purchase Term for the Price plan. If not defined, the term is set as indefinite. The period for the term can be defined in days or months. The term period should be months if the term is chosen to renew automatically at end of term. The term definition is spread across 3 fields. a. Provide a numeric value in Term field. This is the term for the plan which is defined in number of days or months b. Period field would be enabled once a term is entered. The period can be month or days. This is mandatory if a value is specified in Term field. c. End of Term Action controls what the system should do when the subscription term ends.
+The value for this can be as defined below
+I. Renew Automatically can be selected if the business wants the subscription to
+automatically renew at the end of the term which is only in “Months”. The renewal
+period would be the term that is defined in the plan.
+II. Cancel can be selected when the business wants to cancel the subscription
+permanently at the end of the subscription term
+III. Suspend option can be selected when the business wants to temporarily disconnect
+the subscription. In this case, the business would allow the subscription to be reactivated at a later point if required.
+Note- In case, no value is entered for Period, the End of Term action will be taken
+for Manual action as defined under Activation settings in Settings> Revenue.
+Align to Bill Cycle- This field is used to determine when the ""End of term Action"" must take
+effect and thus consequently how the charging must happen. A couple of examples have been
+listed below. Let us assume that the billing day of the month is 1st of every month. Let us also
+assume that an order is placed for the product on the 10th of Jan."
+Product-Pricing,Align to Bill Cycle,"This field is used to determine when the ""End of term Action"" must take effect and thus consequently how the charging must happen. A couple of examples have been listed below. Let us assume that the billing day of the month is 1st of every month. Let us also assume that an order is placed for the product on the 10th of Jan. 1. Align to bill cycle: Unchecked; Term period: set to 1 month; End of term action: Renew automatically. In this scenario, the system will charge for the period of 10th Jan - 31st Jan and for 1st Feb - 9th Feb. When the invoice gets generated on the 1st of February, It will contain charges for the period of 10th Jan - 31st Jan and from 1st Feb - 9th Feb. The system will renew the plan on the 10th of February and so on. 2. Align to bill cycle: Checked; Term period: set to 1 month; End of term action: Renew
+automatically.
+In this scenario, the system will charge for the period of 10th Jan - 31st Jan. When the
+invoice gets generated on the 1st of February, It will contain charges for the period of
+10th Jan - 31st Jan and from 1st Feb - 28th Feb. It will now be aligned to the billing cycle.
+The system will renew the plan on the 1st of March and so on. Thus, in this case, the plan"
+Product-Pricing,Allow Price Override,"This checkbox can be set at the price plan if the business intends to override the price of the plan for every customer that they sell to. Setting this checkbox would enable a business to override the price at the time of placing an order. Refer the order flow to know how to handle price override during an order Priority- This option is included for the price plans which has Metered Charges. When a subscription includes Base and Add-on Products, defining the priority for such price plan ensures the higher order of rating at the time of CDR imports in OneBill, Higher the number, higher the priority. For example: For a subscription which has a Base price plan and an Add-on price plan, the priority definition will work in following ways: The Price plans should have metered charges to define the priority. In the case of New age Rating, with multiple charge groups and multiple UOMs, the priority will work only if UOM of the add-on charge group matches with the base product charge group. Once, the UOM matches, the higher priority will be given to the higher number defined for the price plan. For example, if the priority is defined as 2 for Add-on and 1 for the Base product.The Add-on price plan precedes the base price plan during CDR rating. In the case of same priority defined for both, base product as well as an add-on product, the priority will be given to the Base product. Price Plan Code- Enter a code representing the Price Plan of the product for its unique identification. You can enter maximum 64 characters including special characters. If left blank, the system will automatically generate the price plan code. Provisioning- Check this option if the product requires provisioning in terms of equipment or
+setup details. This feature is useful mainly for Telecom and digital products which require
+necessary equipment like Circuits, Switches, Wiring, Broadband connection etc. in order to
+setup the services chosen by subscribers. In OneBill, we have defined such products as
+Feature Based Products. Provisioning is mandatory for Feature-Based products. For detailed
+steps of entering Provisioning details for feature-based products, refer “Define Provisioning
+parameters”.
+Advance Charges- This option enables the business to apply charges well ahead in time, i.e.
+before the normal billing cycle of a product with recurring monthly charges. Based on the
+number of Months entered next to Advance Charges, the price plan charges will be applied to
+the subscriber’s account in advance during each billing cycle. Currently, the system supports
+advance charges for 1 and 2 months only. The default value is set as 1.
+For example, If the Months for Advance charges has been selected as 2 and the billing is
+scheduled for the month of March, the advance charges will be applied in the month of
+January i.e. 2 months ahead of the billing period. Or if the default value 1 is selected, the
+charges will be applied in February for the same product.
+NoteAdvance Charges will only apply on Recurring Monthly Charges.
+As of now, the system allows you to select only two values for the Months in advance i.e. 1
+and 2.
+The default value is 1.
+Allow Price Override- This option to enable a CSR user to set a custom price for a subscriber at
+the time of purchase. By default, this option will be disabled. This flag would only be displayed
+if the ""Price Override"" feature is enabled for the business.
+To know the detailed steps of applying Price Override, refer Price Override during Order
+Creation."
+Product-Pricing,Define Provisioning parameters,"Provisioning parameters are defined as part of the create product flow. The values provided against these parameters defined here, at the time of order placement will enable the provisioning and activation of the corresponding subscription. Field Descriptions:
+The following are fields which are needed to be set up in order to define provisioning attributes as
+part of a product creation.Enter the following details for Provisioning Attributes:
+Attribute Name: Select the attribute name from the drop-down list or type to create a new
+attribute. To create a new attribute, simply click on the Create option in the drop-down list and
+start entering the attribute name, the system will add this new attribute immediately. You can
+view this attribute next time when you click on the attribute drop-down list.
+Value: Enter the value of the attribute, For example, for the attribute name as Internet Speed,
+the value can be defined as 20 UOM: Select the Units of Measurement for the feature you have defined. For example, you can
+select define the Mb/Sec for the Internet Speed.
+Input: Check this option if the provisioning attribute requires an input value that can be
+entered at the time of Order Placement.
+Mandatory - Check this option if you want to mark this attribute value as mandatory input i.eit is required to enter the attribute value before placing an order for the price plan. To make it
+optional, uncheck the Mandatory checkbox."
+Product-Pricing,How to set up Provisioning Parameters?,"You can define provisioning parameters for a Price Plan while creating a new Product 1. In order to define provisioning parameters, check the Provisioning option under Price Plan Information section to enter Provisioning Parameters. 2. Once you check the Provisioning option in Price Plan Information section, a new section to enter Provisioning Attribute details appears. 3. To add more attributes, click on the ""Plus"" icon. Enter the details of another feature as explained above."
+Product-Pricing,What are charge details?,"For a provider to charge their customers using a billing system like OneBill, they need to set up charge details which could be recurring, fixed or based on Usage. The details added to the type of charges which are associated with a product is called charge details. This section explains how to setup charges for a product. A price plan can contain one or more charges. The following are the different charge restrictions that exist today, Every price plan can only have one Recurring Charge component. There should be at least one charge defined Charge amount cannot be negative There can be any number of usage charges or one-time charges In case of Feature-based charges, all the feature charges have to be of the same type and same charging frequency (if charge type is recurring)"
+Product-Pricing,How to define charge details?,"Charge details are added as part of a price plan. To add a charge to a Price plan as part of product/price plan creation, enter the information in the charge details section as shown below Charge Type - This field determines the type of charge that can be defined in the product. The
+following are the supported charge types in OneBill.
+Recurring: This type is used for any charge that is applied in a recurring / repeated fashion.
+Supported recurring periods are Daily, Weekly, Monthly, Yearly, Annual, TwiceMonthly,
+Quarterly and Semiannual. Refer Define Recurring Fee for the explanation on defining a
+recurring fee.
+OneTime: This is used for defining charges that are applied only once. This charge type is
+generally associated with Purchase, Ad-hoc. Purchase charges are applied when the
+product is purchased. Refer Define One-Time Fee for an explanation on defining a one time
+fee. Refer Markup-Charge definition to know about defining an Ad-hoc fee.
+Metered: This charge is setup for products which are sold on a Pay As You Go model.
+Metered charges can be defined as a flat charge or as a variable charge. In the case of a
+usage charge, variable charges can be applied based on the usage over a specific period,
+for example, first 10 downloads in a month are charged at $1/ download and 11th download
+onwards, each download is charged at $0.90.
+Feature Based: This charge is applied to the products with specific attributes and
+elements that a subscriber can choose. For eg, a business may have a cloud server which
+has a charge applied based on a number of system resources like CPU, RAM, Storage etc.
+Feature-based pricing can be used to define each of these parameters, setup pricing rules
+for each of them. For more information refer: Define Feature Based Price
+Cancellation Charge: This charge is setup in the case where a business wants to charge a
+penalty or Early-Termination Fee(ETF) when a subscription is canceled. Cancellation charge
+can be applied as a fixed amount or a monthly price applied for the period of the remaining
+term.
+BillTime Charge: This charge is setup when the business wants to add specific charges at
+the time of bill generation. Bill time charges work on a specific rule and derive the extra
+charge to be added to the bill. For eg: Add a $20 fee if the bill amount is less than $100.
+Markup Charge: This charge is setup when the business wants to import an already rated
+file. While importing the file, the charges can be captured as is, or the charge can be
+marked up with a specific percentage or amount. For more information refer Define Markup
+Charges
+Additional Charge: This charge is setup when the business wants to charge a
+supplementary fee along with regular usage charges. This charge is only applied for usage /metered charges only
+Currency- The currency selected would be the default currency set under the Settings > Business
+profile, which is the currency of the business used in OneBill.
+Charge Mode- Select the mode of charge as Fixed, Variable or Rule Based. This field determines if
+the unit price is fixed or based on purchase quantity. The following charge modes are supported.
+Fixed: In the fixed charge mode, the price plan charge (or tariff) is fixed for the entire
+quantity
+Variable: In the variable mode, the price plan charge is based on the quantity purchased.
+The following variants of variable charging are supported
+Variable-Tier. Refer to SetupTier Pricing.
+Variable-Threshold. Refer to SetupThreshold Pricing
+Variable-Volume Based. Refer to Volume Based Pricing. Volume based pricing is only
+supported for Metered charges
+Rule-Based: In this mode, the pricing is derived based on a set of business rules. The rules
+at evaluated when the purchase happens and a charge are derived based on the rule
+criteria.
+Charge- Once you have selected the mode of charge, define the charge according to the charge
+mode you have selected.
+For example: Enter a fixed amount for a Fixed Charge Mode,
+ Setup Price Tiers for a Variable Charge Mode ( Refer: Setup Tier Price)
+ Define Business rules for a Rule-Based Charge Mode ( Refer: Define Rules)
+Wholesale Charge- Enter the Wholesale Charge amount which would be set as the default cost to
+your partners.
+Note- This field is valid for Partner Management feature in OneBill.
+Taxmode - This field determines the tax settings for the charge. The following options are available
+for taxation.
+Non-Taxable: This is the default value. Selecting this value would not apply any taxes
+Internal: Select this field, if OneBill internal tax engine is used. The taxcode field available under
+the ""More"" section would have to be selected appropriately.
+External: Select this field, if an external tax engine is used for taxation. This option can only be
+chosen if the external tax configuration is defined under the System Administration ->
+Integration section.
+Note- This option is available only if SureTax, Aval"
+Product-Pricing,Additional charge detail options:,"Once all the details are furnished, clicking on More will display advanced options for the charge as shown below The fields in the advanced section are shown below
+Unit Of Measurement(UOM): This is the unit in which the charge is measured. The default value
+would be UNIT. This field will be applicable primarily for products charged on Pay As You Go. For eg
+UOM for internet usage would be HOUR.
+Tax Code: This would be the taxcode defined in OneBill tax module. This field would only be
+shown if the TaxMode is selected as ""Internal"" or ""External"". This field is only used for OneBill tax
+module taxcodes.
+GL Code: This would be the GL code/accounting code that would be associated with the charge.
+The max length for this field is 32 characters. GL String: This field would accept an additional accounting code. The max length for this field is
+128 characters.
+Item Type: This dropdown field would be displayed if QuickBooks is enabled. This field can take
+one of the following values
+Service: This is the default value and can be used if the charge is defined for offering a service
+Inventory: This value should be chosen if the charge is towards the sale of an inventory item.
+Non-inventory: This value should be chosen if the charge is not in the above 2 categories
+Floor: This field is an optional field and would define the minimum price that the price plan can be
+sold for. This field is compared at the time of sale and is used when a CSR overrides the price as
+part of sale or provides a discount as part of the sale
+Ceiling: This field is an optional field and would define the maximum price the plan can be sold at.
+This field is compared at the time of sale and is used when the CSR overrides the price as part of
+the sale or provides a discount as part of the sale. The Floor and Ceiling together define a price
+band that can be setup for a price plan
+Cost: This field can be used to enter a cost associated with the product. The business can use this
+field to capture their cost for manufacturing/acquiring the product
+Prorate For: This field controls the proration settings for a recurring charge. This field is only
+shown for recurring charges
+Calendar days: Choose calendar days if you want proration to consider the number of days in
+the calendar month.
+30 Days: Choose this value, if you want proration to always use 30 days as the number of days
+in a month
+None: Choose this value, if you do not want to prorate the charge
+Proration settings can be changed even after the plan/bundle purchase.
+Edit of proration settings is allowed at price plan and bundle level(base price plan, retail price
+plan, partner own price plan and bundle)
+Do note that on the edit of proration setting new proration setting is applied on all new
+subscriptions and on existing subscriptions.
+New subscription – Any purchase done new proration setting is considered.
+Existing subscription - Any edit subscription operation done on an existing subscription like
+cancel, suspend and modify a subscription, latest proration setting is considered.
+Align to Billing Cycle: This checkbox is selected by default. This field would ensure that the
+charge is always aligned with the billing cycle. Disable this checkbox, if you want the product to
+charge every time on the day when it was purchased
+Invoice Description: The invoice description can be used by the business to provide moreinformation for the charge in the invoice if the default invoice is selected. The invoice description
+is shown in the Charge Type field in the invoice. Maximum length is 64 characters. If you have
+multiple languages defined, you will be able to add the invoice description for each
+language/locale from this section. Please ensure that you setup the description in all languages
+The user can attach a discount to a charge defined in the Price plan. Discounts are only supported for
+Recurring and One-time charges."
+Product-Pricing,What is a One Time fee?,"The one time fee is used for product / services where the fee needs to be applied once. This fee application would happen at the time of purchase. The onetime charge can be applied for any installation, setup or sale of good."
+Product-Pricing,How to create a one time fee for a fixed charge?,"To create a one-time fee with fixed charge for the product, perform the following steps: 1. Navigate to Billing Configuration> Create A New Product > Add Price Plan. The Charge Details section appears. 2. Select the Charge Type from the drop-down list. Select the charge type as OneTime.3. Select the Charge Apply Mode for one time fee e.g. Purchase,Setup, Maintenance etc. Click on this
+filed to view existing modes. You can use this field to create new charge to apply Ad-hoc charges. For
+more details on Ad-hoc charge, see Define Ad-hoc charges .
+4. Select the Charge Mode. Default value would be Fixed.
+5. Select the Currency from the drop-down list. The default currency defined would the currency set in
+the Business Profile settings.
+6. Enter the value of the charge in the Charge field.
+7. Enter the Wholesale charge for the Partners.A whole sale charge applies to the price plans that are
+available to be sold by partners in a marketplace.Generally the wholesale charges are lower than the
+actual charge defined for the price plan, however it is up to you how you want to define a whole sale
+charge for the products to be used by channel Partners.
+Note- This field is displayed only if Partner Management feature is enabled for your system. For
+more details, see Partner Management.
+6. Select the Tax Mode for the price plan.
+OneBill is equipped to cater to all your taxation needs, you can select your choice of tax mode after
+defining the charge.
+You can choose any one option from following tax modes:
+Non Taxable - If you choose Non-Taxable mode, the product will be exempted from any type of taxes.
+Internal - Internal tax refers to OneBill Taxation that offers an internal configuration for all your
+taxation needs. For more details, see OneBill Taxation
+External - OneBill offers integration with a all major tax service providers e.g. Avalara , SureTax,
+Avalara for AvaTax etc. If you have integrated with any of these external tax service providers, select
+External as Tax mode. It will fetch all the details configured as per your tax service provider.Currently,
+OneBill supports tax in 45 countries through Avatax.
+See Taxes to know more about how to apply tax on products.
+See Tax Mode to know more about how to apply tax on products.
+10. A valid tax code that determines how a particular charge/tariff will be taxed. If taxation is enabled in
+OneBill and a tax code has been set up with the tax service provider, enter this tax code into this
+field. If no tax code was created, then the tax service provider will use their default tax code based on
+the origin and shipping address of the customer’s account.
+11. Select the Unit of Measurement applicable for your price plan from the drop-down list. This is a
+predefined unit of measurement in which the price plan is measured. This is a unit in which the
+service would be rated or charged.
+12. Enter an appropriate general ledger account code in the GL Code field. A general ledger code, or an
+accounting code, helps a company record transactions, depending on financial accounts involved in
+such transactions. This code also ensures that total account data includes all sub-account
+transactions. A general ledger code is a number that a company assigns to account groups, such as
+customer receivables or vendor payables.
+13. GL String- A string value that is defined for the accounting code linked to the charge.
+14. Item Type- Select the Item Type for the price plan you have selected. The value in this field is used to
+export OneTime and Recurring Charges to export data into Quickbooks. For more details, see The Product Type has following values in its drop down list:
+Service
+Inventory
+NonInventory
+Note- You will be able to view this field only if Accounting feature is enabled for you.
+6. Cost- Enter the cost of the product.
+7. Enter the description of the price plan in Invoice Description. This description is displayed in the
+invoice as the charge description.
+Select Create Product to save the configured charge details for the price plan and create the
+product with the selected price plan."
+Product-Pricing,How to define a one time fee for a variable charge?,"To create an one-time fee for a variable charge for the product, perform the following steps: 1. Navigate to Billing Configuration> Create A New Product > Add Price Plan. The Charge Details section appears. 2. Select the Charge Type from the drop-down list. Select the charge type as OneTime.
+3. Select the type of one time fee as either Purchase or, Setup.
+4. Select the Charge Mode as Variable from the drop-down list.
+5. Select the Currency from the drop-down list.
+6. Enter the value of the charge in the Amount field.
+6. Select the Unit of Measurement applicable for your price plan from the drop-down list.
+7. Enter the Tax Code. A valid tax code that determines how a particular charge/tariff will be taxed. If
+taxation is enabled in OneBill and a tax code has been set up with the tax service provider, enter this
+tax code into this field. If no tax code was created, then the tax service provider will use their default
+tax code based on the origin and shipping address of the customer’s account. Currently, OneBill supports tax in 45 countries through Avatax.
+8. Enter an appropriate general ledger account code in the GL Code field.
+9. Enter the description of the price plan in Invoice Description. This description is displayed in the
+invoice as the charge description.
+10. Select Create Product to create the product with the price plan."
+Product-Pricing,What is a recurring fee?,"Recurring fee is defined as a regular charge incurred repeatedly for a service. The OneBill application allows you to charge the recurring fee in advance at the time of purchase and from then on at the beginning of every billing period. In Product, the recurring fee types are divided in the following categories: Daily, Weekly, Monthly, Yearly, Annual, TwiceMonthly, Quarterly and Semi annual."
+Product-Pricing,How to define a recurring fee for a fixed charge?,"Navigate to Billing Configuration> Create A New Product > Add Price Plan. The Products page appears. Scroll down to The Price plan section. 2. Select the Charge Type from the drop-down list. Select the charge type as Recurring.
+3. Select the type of recurring fee as either Monthly, Weekly, Daily or Yearly.
+4. Select the Charge Mode as Fixed from the drop-down list.
+5. Enter the Charge Amount as a fixed fee for recurring charge mode.
+6. Enter the Wholesale Charge amount on which you want to sell the product to your partners.
+Note- This field is valid for Partner Management feature in OneBill.
+7. Select the Currency from the drop-down list.
+8. Enter the value of the charge in the Amount field.
+9. Select Add Discount to indicate that a discount can be configured within the price plan.
+8. Select the Unit of Measurement applicable for your price plan from the drop-down list.
+9. Enter the Tax Code. A valid tax code that determines how a particular charge/tariff will be taxed. If
+taxation is enabled in OneBill and a tax code has been set up with the tax service provider, enter this
+tax code into this field. If no tax code was created, then the tax service provider will use their default
+tax code based on the origin and shipping address of the customer’s account. Currently, OneBill
+supports tax in 45 countries through Avatax.
+10. Enter an appropriate general ledger account code in the GL Code field.
+11. Enter the description of the charge in Invoice Description field. This description is displayed in the
+invoice as the charge description.
+12. The option Prorate field is selected by default. The field indicates that price plan will be prorated at
+the charge level.
+13. Select Create Product to create the product with the price plan."
+Product-Pricing,What is a recurring fee?,"Recurring fee is defined as a regular charge incurred repeatedly for a service. The OneBill application allows you to charge the recurring fee in advance at the time of purchase and from then on at the beginning of every billing period. In Product, the recurring fee types are divided in the following categories: Daily, Weekly, Monthly, Yearly, Annual, TwiceMonthly, Quarterly and Semi annual."
+Product-Pricing,How to define a recurring fee for a variable charge detail?,"To define the recurring fee for a variable charge detail for the product, perform the following steps: 1. Navigate to Billing Configuration> Create A New Product > Add Price Plan. The Products page appears. Scroll down to the Price plan section. 2. Select the Charge Type from the drop-down list. Select the charge type as Recurring.
+3. Select the type of recurring fee from one of the drop-down options: Daily, Weekly, Monthly, Yearly,
+Annual, TwiceMonthly, Quarterly and Semi annual.
+4. Select the Currency from the drop-down list.
+5. Enter the value of the charge in the Amount field.
+6. Select Add Discount to indicate that a discount can be configured within the price plan.
+8. Select the Unit of Measurement applicable for your price plan from the drop-down list.
+9. Enter the Tax Code. A valid tax code that determines how a particular charge/tariff will be taxed. If
+taxation is enabled in OneBill and a tax code has been set up with the tax service provider, enter this
+tax code into this field. If no tax code was created, then the tax service provider will use their default
+tax code based on the origin and shipping address of the customer’s account. Currently, OneBill
+supports tax in 45 countries through Avatax.
+10. Enter an appropriate general ledger account code in the GL Code field.
+11. Enter the description of the charge in Invoice Description field. This description is displayed in the
+invoice as the charge description.
+12. The option Prorate field is selected by default. The field indicates that price plan will be prorated at
+the charge level.
+13. Select the Charge Mode as Variable from the drop-down list. Select Setup Price Tiers to define
+the tier or threshold pricing. 14. Select Create Product to create the product with the price plan."
+Product-Pricing,Tier Pricing with an example,"Tier pricing is defined as an appropriate charge for quantity. This feature lets you to lets you price items differently for higher quantities. This is an effective way to move more merchandise. Lets take an example to demonstrate tier pricing. Example: For 1-20 apps, you are charged at $0.5/unit, for 21 - 40 apps, you are charged at $0.4/unit, and for 41 app to 1000, you are charged at $0.3/unit."
+Product-Pricing,How to set up tier pricing?,"To setup tier pricing, perform the following steps: 1. Navigate to Billing Configuration> Create A New Product > Add Price Plan. The Products page appears. Scroll down to The Price plan section. 2. Select the Charge Type from the drop-down list. Select the charge type as Recurring.
+3. Select the type of recurring fee from one of the drop-down options: Daily, Weekly, Monthly, Yearly,
+Annual, TwiceMonthly, Quarterly and Semi annual.
+4. Select the Currency from the drop-down list.
+5. Select the Charge Mode as Variable from the drop-down list. Select Setup Price Tiers to define
+the tier or threshold pricing.  The Set-up tiers window is displayed.
+6. Select the price tier type as Tier. 7. Enter the following values for tier range:
+Enter 1 in Min Range.
+Enter 20 in Max Range.
+Enter 0.5 in Price.
+8. Select + to add the second tier range.
+Enter 21 in Min Range.
+Enter 40 in Max Range.
+Enter 0.4 in Price.
+9. Select + to add the final tier range.
+Enter 41 in Min Range.
+Enter 1000 in Min Range.
+Enter 0.3 in Price.
+10. Select Save to save the tier pricing values. To view the tiers or even to modify the priocing,
+select View/ Edit Price Tiers in the Charge Details screen. 11. Select Done to save the configured charge details for the price plan.
+12. Select Create Product to create the product with the price plan.
+Calculating Charge for Tier pricing
+If you purchase 45 quantity of the application, you will charged at ($0.5*20 qty=10) + ($0.4*20 qty=8) +
+($0.3*5 qty= 1.5) = $19.5."
+Product-Pricing,What is threshold pricing,"To define the threshold pricing, perform the following steps: 1. Navigate to Billing Configuration> Create A New Product > Add Price Plan. The Products page appears. Scroll down to The Price plan section. 2. Select the Charge Type from the drop-down list. Select the charge type as Recurring.
+3. Select the type of recurring fee from one of the drop-down options: Daily, Weekly, Monthly, Yearly,
+Annual, TwiceMonthly, Quarterly and Semiannual.
+4. Select the Currency from the drop-down list.
+5. Select the Charge Mode as Variable from the drop-down list. Select Setup Price Tiers to define
+the tier or threshold pricing.
+The Set-up tiers window is displayed.
+6. Select the price tier type as Threshold.7. Enter the following values for tier range:
+Enter 20 in Max Range.
+Enter 0.5 in Price.
+8. Select + to add the second tier range.
+Enter 40 in Max Range.
+Enter 0.4 in Price.
+9. Select + to add the final tier range.
+Enter 1000 in Min Range.
+Enter 0.3 in Price.
+10. Select Save to save the tier pricing values. To view the tiers or even to modify the pricing,
+select View/Edit Price Tiers in the Charge Details screen.
+11. Select Done to save the configured charge details for the price plan.
+12. Select Create Product to create the product with the price plan."
+Product-Pricing,What is volume based pricing?,"Monthly Volume based pricing is another type of pricing which can be used when you need to charge a pay per use based on the usage pattern over a month. Let's take an example to demonstrate monthly volume based pricing. Example: For 1-20 apps, you are charged at $0.5/unit, for 21 - 40 apps, you are charged at $0.4/unit, and for 41 app to 1000, you are charged at $0.3/unit."
+Product-Pricing,How to set-up volume based pricing?,"To setup monthly volume based pricing, perform the following steps: 1. Navigate to Billing Configuration> Create A New Product > Add Price Plan. The Products page appears. Scroll down to The Price plan section. 2. Select the Charge Type from the drop-down list. Select the charge type as Metered.
+3. Select the Currency from the drop-down list.
+4. Select the Charge Mode as Variable from the drop-down list. Select Setup Price Tiers to define
+the tier or threshold pricing.
+The Set-up tiers window is displayed.
+5. Select the price tier type as Volume Based.  6. Select Done to save the configured charge details for the price plan. 7.Select Create Product to create the product with the price plan. Calculating Charge for Volume based pricing
+If you purchase 45 quantity of the application on day 1, you will be charged at ($0.5*20 qty=10) +
+($0.4*20 qty=8) + ($0.3*5 qty= 1.5) = $19.5.
+If you purchase 20 quantity of the application on day 2, you will be charged at ($0.3*20) = $6, as the
+previous usage was 45 and the charge was calculated from step 3"
+Product-Pricing,What are metered charges?,"Metered charges are applied based on the service utilization by subscribers. For example, a subscriber has purchased a telecom product and he/she uses some units of voice calls and data packages offered in the product. After initializing the service, the subscriber would be charged for all the voice calls made or data downloaded in his device/system during his/her billing period. At the end of the billing period, the customer will be billed for the total number of units used. Rating can be defined based on beats i.e. units consumed by the subscriber. A unit price is defined to calculate the metered charge for a product/service utilization, For example, call per minute, or per second, data download per MB, etc. Let's take an example: If a telecom product/service offers a normal fixed charge of $0.5/minute for a voice call. it offers a minimum fixed charge $1 for first two minutes after that, every minute will be charged at normal rate of $0.5/min. Hence, for a 5 minutes voice call, there are 3 increments during a call usage, therefore the subscriber will be charged $2.5. Here, if the call usage is only 50 seconds, the subscriber will be charged $1 as minimum charge applicable."
+Product-Pricing,How to define a Metered Charge?,"To define a metered charge follow these steps: 1. Navigate to Pricing Studio -> Products and click on Create New Product 2. Add Price Plan as explained in Add new Price Plan section 3. Scroll down to the Charge details section of the price plan.
+4. Select Metered in Charge Type drop down list
+You will see following fields in a Metered Charge definition After selecting Metered charge as charge type, enter the following details:
+Currency - Select the currency from the drop-down list.
+Charge Mode- Select the charge Mode as Fixed from the list which defines that the charge for a unit
+is fixed for the product/service.
+ Note- Refer Define Charge Details for more details on Charge Mode
+Tax Mode- Select the mode of tax defined in the system i.e. NonTaxable, Internal and External. For
+more details on Taxes Refer Taxes.
+Wholesale Charge- This field is provided to include the wholesale charge for the product."
+Product-Pricing,Metered Charge Fields:,"The following fields are defined in a separate section below above-mentioned fields. This section is specific to Metered Charge Definition: Charge - Enter the charge amount for the unit entered in next field. For example, you can define a
+charge of $0.5 for 60 seconds of a voice call.
+Units- Enter the number of units applicable to the charge defined. As explained in the above example,
+the unit should be 60 for a charge amount of $0.5.
+Minimum- The number of units offered at a fixed charge. The ""minimum value"" you enter in Metered
+charge is the minimum quantity that will be charged for the CDR record being processed. So the value
+of 60 seconds will mean every call will be charged for at least 60 seconds with defined rate per units.
+Increment- The no. of increased units after consuming minimum units. You can define the maximum
+no. of units to be charged as defined in the charge field. for example, If you have defined 60 seconds
+of units as Increment, then In a 300-second voice call, there are 3 increments of 60 seconds each
+after consuming minimum no. of units i.e.120 seconds.
+UOM- select the unit of measurement for the product, i.e. Minute, Second, MB, GB, Count etc. You can
+create the UOM if it is not available in the system. Enter the UOM and select create new in the drop
+down list. The list will be updated with the new UOM you have entered.
+Clicking on the More option will bring down following new fields:
+Tax Code- Enter the Tax code configured for you
+Invoice Description -You can enter a description for the charge in the price plan to be used in Invoice.
+This field is fully optional, you can also enter an invoice description at the time of order placement
+(refer: Order Review).
+If you have not entered any description here, the system will consider the description entered at the
+time of order placement. However, priority is set the description entered at the time of order
+placement.
+After furnishing all the information for metered charges, click on Create Product Button to create the
+product with metered charges.
+"
+Product-Pricing,What are Markup charges?,"Markup charges are used when the business has the transactions rated outside of OneBill, and the business wants to import the rated transactions into OneBill and generate an invoice. As part of markup charges, OneBill can markup the input charge with a percentage or a fixed dollar value. Markup charge definition is provided with a flexible business rule definition to help businesses set-up flexible business policies to derive the markup charge."
+Product-Pricing,How to define markup charges?,"To define the markup charges, please follow the steps given below 1. Navigate to Billing Configuration> Create A New Product > Add Price Plan. The Products page appears. Scroll down to The Price plan section. 2. Select the Charge Type from the drop-down list. Select the charge type as Markup.
+3. Define the Rule as shown below. The Rule window pops up when the charge type is selected as
+Markup. 4. Enter the Charge Identifier value. This field is the identifier in the CDR input which helps identify
+which markup charge should be evaluated for the transaction.
+5. Select the Unit of Measurement applicable for your price plan from the drop-down list.
+6. Select the Tax Mode. A valid tax code that determines how a particular charge/tariff will be taxed. If
+taxation is enabled in OneBill and a tax code has been set up with the tax service provider, enter this
+tax code into this field. If no tax code was created, then the tax service provider will use their default
+tax code based on the origin and shipping address of the customer’s account. Currently, OneBill
+supports the tax in 45 countries through Avatax. This field is not used for Suretax.
+7. Enter an appropriate general ledger account code in the GL Code field.
+8. Enter the description of the charge in Invoice Description field. This description is displayed in the
+invoice as the charge description.
+9. Select Create Product to create the product with the price plan.
+Please note that OneBill supports adding more than one Markup charge for every price plan. The charge
+identifier is unique within a price plan and when multiple markup charges are defined, the appropriate
+Charge identifier should be provided to ensure the right charges are applied for the transaction.
+"
+Product-Pricing,What is a feature based charge?,"A business can use Feature-Based pricing to setup charges for products which are charged based on the components selected under the product. For eg, if the business wants to offer cloud service, where the pricing is determined by 3 parameters CPU, RAM, and Storage. The user can choose the value for each of these parameters to be charged accordingly. The features based pricing provides a win-win scenario for the business as well the subscriber. The subscriber can pick and choose the pieces of elements he needs and get charged accordingly. The business can slice and dice its offering and up-sell their services. OneBill allows the businesses to configure feature based products and create price plans for them and define charges based on the features offered in it."
+Product-Pricing,How to define a feature based charge?,"To define the charges for a feature based product: 1. Go to the main navigational menu in the left panel and select Products under Pricing studio. The Products page appears 2. Click on Create Product button.  The Create a New product page appears. See: Create New Product. Go to the price plan section to enter details for the Feature based charge. 3. To define a feature based charges for the product, go to the charge details under Price Plan section and select Feature based as Charge type. Once Feature Based charge type is selected, the charge definition section will look like this: The user would be able to click on the ""Flat Pricing"" field to decide the type of Feature based charge
+to be defined. Clicking on this field shows the options as shown below Flat Pricing (default selection) - In this mode the features are set-up with appropriate values and
+there is one price defined for the selected feature values.
+Dynamic Pricing - In this mode, the user is given an option to add one or more features/attributes
+and define a price for each of the attribute.
+
+The definition for the fields in this section would change based on the pricing option selected. Let's
+see the definition of the fields
+Flat Pricing
+The image below shows the section with the values populated for 2 feature/attributes."
+Product-Pricing,Field description for featured based charge?,"The fields in this section are explained below. Feature - Enter the name of the Feature / Attribute linked to the charge. This field would show a drop-down of features added to the platform already. The user would be able to select a feature from the list or add a new feature. A sample view of this field with the option to add a new feature is shown below. The user can click on the ""Create New"" link to add a new feature. Value: This field would be used to specify the value for the selected feature. This field would accept
+an alphanumeric value.
+UOM: This field would be a drop-down showing a list of existing UOMs defined in the platform. Like
+the feature field, the user would be able to select from an existing UOM or to add a new UOM as shown in the image below. The user can click on ""Create New"" link to add the UOM Clicking on the ""Create New"" for the UOM shows a pop-up as displayed in the image below. The user
+would be able to enter the description of UOM in the different languages. To add more features to the plan, the user can click on the icon. To delete an existing feature, the
+user can click on the icon.
+After selecting all the features, the user would be able to add a new charge for the selected features. The
+charge definition would comprise of the following fields
+Payment Type: This field would be a drop-down which would determine the type of charge that would be
+applied. The default value selected would be Ad-hoc. Clicking on the dropdown shows the other options
+available which would be ONETIME charges: Ad-hoc, PURCHASE or RECURRING CHARGES: SEMIANNUAL,
+DAILY, QUARTERLY, ANNUAL, MONTHLY, WEEKLY, TWICEMONTHLY. The user can choose one of the values
+to apply the appropriate charge
+Price: This field would be used to set the amount to be charged to the subscriber.
+The rest of the fields would be the same as mentioned in the charge definition section.Once all the details
+are complete, Click on Create Product.
+The charges for a feature based product has been defined and you will be directed to the Products"
+Product-Pricing,Description for featured based charge?,"Dynamic Pricing The image below shows the section with the values populated for 2 feature/attributes with dynamic pricing. Feature - Enter the name of the Feature / Attribute linked to the charge. This field would show a dropdown of features added to the platform already. The user would be able to select a feature from the
+list or add a new feature. A sample view of this field with the option to add a new feature is shown
+below. The user can click on the ""Create New"" link to add a new feature. Value: This field would be used to provide the charge definition. The user would have to click on the
+icon to define charges for a specific feature. Clicking on the icon shows the following popup The user would be able to apply the charges in one of the following 3 modes
+Tier: Refer to the tier definition section to know more about defining a tier based charge. When the
+feature is set to have a tier based charge, the value of the feature selected at the time of order would be
+used to determine the price from the tier.
+Threshold: Refer to the threshold definition section to know more about defining the threshold based
+charge. When the feature is set to have a threshold based charge, the value of the feature selected at the
+time of order would be used to determine the price.
+Slab: Select this option if you need to define a set of acceptable values for the feature and apply a charge
+based on the selected feature The Unit Of Measurement field would be a dropdown from where the user can select an existing UOM or
+add a new UOM. In the screenshot above, the user has setup 3 possible values for the feature CPU. For eg,
+the first entry has a value of 1.2 GHz which has a price of $10. At the time of sale, the user would be able
+to choose the value for the CPU feature and get charged accordingly.
+Once the charge is defined for all features, the user would be able to provide the additional charge fields
+to complete the feature charge definition."
+Product-Pricing,What are Metered Charges?,"Metered charges are applied based on the service utilization by subscribers. So, the end subscribers are charged based on the amount of service that they use. It could be the total duration of the calls made or the total amount of data used; metered charges are basically charged based on the service usage of the customer or the end subscriber. The usage made by a subscriber needs to be rated in order for the usage to be billed. Rating of a usage can be defined based on the: Service Type Event Type: Charge Category group Rates are defined in units of the above-mentioned elements in a metered charge. A unit price is defined to calculate the metered charges for a product/service utilization. For example, In a Voice Call Service Type, voice calls are the event type and National or International calls ( a.k.a STD or ISD) are defined as Charge Category Group with call per minute, or per second charges."
+Product-Pricing,How are metered charges defined?,"To define a metered charge, follow these steps: 1. Navigate to Pricing Studio> Products and click on Create New Product. 2. Add Price Plan as explained in Add new Price Plan section
+3. Scroll down to the Charge details section of the price plan.
+4. Select Metered in Charge Type drop down list 5. You will see following fields in a Metered Charge definition "
+Product-Pricing,What are Ad-hoc Charges?,There are times when business needs to enforce some flexible or unplanned charges on subscriptions with an immediate effect. These could be special charges or specific demands from subscribers in a product or service that contain One Time charge. Onebill has a provision for such unplanned charges that can be applied at later stage in a subscription. It is called ad-hoc charge. A business user can create an ad-hoc charge for any specific purpose under Charge definition during price plan creation. OneBill allows you to not only create ad-hoc charge but also give it a name as per its requirement in the price plan; that is why we also call it flexi-charges.
+Product-Pricing,Points to be Considered for Ad-hoc charges:,"Ad-hoc charges can be created in a Fixed, Variable, and Rule Based charge Mode. Ad-hoc charges will not be calculated during order placement. User can choose a subscription for which he/she wants to apply ad-hoc charges whenever a requirement occurs. See Applying Ad-hoc charges in a subscription Ad-hoc charges can be applied to only those subscription for which ad-hoc charges are already defined. Once applied, Ad-hoc charges will get effective in the next scheduled bill or latest pending bill for the subscription. Ad-hoc charges are applicable on all subscription irrespective of their status i.e. ad-hoc charges are applied even when the subscription is in suspended state. It will not be applied on canceled subscription. If the ad-hoc charges are applied during a delay period, it will be effective in the upcoming pending bill not in the previous pending bill. For the users who are using Partner Management feature, the ad-hoc charge type names created by providers will be available to their partners but not the vice versa i.e. If a partner creates an ad-hoc charge type, it will not be available for its providers."
+Product-Pricing,How to create Ad-hoc charges?,"To create an ad-hoc charge: 1. Navigate to Pricing Studio> Products under main navigational menu and click on Create New Product on Products page. 2. Add a Price Plan as explained in Add new Price Plan section. 3. Scroll down to the Charge details section of the price plan. 4. Select One Time under Charge Type drop down list 5. Select Ad-hoc in the Charge Apply Mode field. You will see following fields for One Time Charge type: Field Definitions:
+The following table explains the field names and their usage in the Charge Details section:
+Field Name What it does
+Charge Type Enables you to choose a charge type from the drop down list containing following
+option:
+· Recurring
+· One Time
+· Metered
+· Feature Based
+· Markup
+To define ad-hoc charge, select OneTime as Charge Type
+Create/Select This is a text box that allows you to create a name for ad-hoc charge. To create a
+new name, Simply click on the Create New link after entering the name in this text
+box. The new name for the ad-hoc charge will be created and saved in the system.
+Or else, you can also select a name from the pre-existing list of ad-hoc charge
+names. See the image above.
+Currency This field contains the list of currencies to choose from. You can select a currency
+name which you want to choose for ad-hoc charge Charge Mode Enables you to choose a Charge Mode from the drop down list containing following
+options:
+· Fixed
+· Variable
+· Rule Based
+You can select any of the above option. Based on your selection, you will be able to
+see the options explained below in this table.
+Charge This filed will be enabled after selecting Fixed charge Mode.
+You can enter a fixed amount for ad-hoc charge e.g. 100, 25, 80 etc.
+Whole Sale Charge This option will get enabled if you choose Fixed Charge Mode. You can define a
+whole sale charge to be used by Partners.
+Note- This field is optional. If left blank the charge amount will be used
+Setup-Price Tiers This options will get enabled if you have selected Variable Charge Mode for ad-hoc
+charge definition.
+For more details on Setting up Price Tiers, See Setup Tier Pricing
+Setup Rule This option will get enabled if you have selected Rule Based Charge Mode for adhoc charge definition.
+For more details on Setting up Price Tiers, See Rule Based Charge
+Tax Mode Enables you to select the mode of tax defined in system i.e. Non Taxable, Internal,
+and External.
+Clicking on the More option will bring down following new fields:
+Tax Code- Enter the Tax code configured for Taxation purpose.
+Invoice Description - You can enter a description for the charge in the price plan to be used in Invoice.
+This field is fully optional, you can also enter an invoice description at the time of order placement
+(refer: Order Review).
+Note- If you have not entered any description here, priority will be given to the description
+entered at the time of order placement.
+After furnishing all the information for ad-hoc charges, click on Create Product Button to create the product
+with add-on charges. "
+Product-Pricing,Cancellation Charge,"Business may need to apply a cancellation charge or a termination fee when a subscriber cancels a subscription. OneBill allows you to create a Fixed Cancellation Charge to be used as a penalty or termination fee for a cancelled subscription. For example: A subscriber purchases a price plan which has a cancellation charge of $5 associated with it. If the subscriber cancels his subscription of this price plan, he/she will be charged $5 as a cancellation fee and a refund of the subscription charge will be initiated ( if any)."
+Product-Pricing,Points to consider for cancellation charge:,"To apply a cancellation charge in a subscription, a Cancellation charge should be associated with the priceplan. Cancellation charges can be created in a Fixed and Rule Based charge Mode. Only one cancellation charge is allowed for a priceplan. Cancellation charge does not apply to the Partner settlement/Agent commission. Steps to create a cancellation charge 1. Navigate to Pricing Studio> Products under main navigational menu and click on Create New Product on Products page. 2. Add a Price Plan as explained in Add new Price Plan section. 3. Scroll down to the Charge details section of the price plan. 4. Select Cancellation Charge under Charge Type drop down list. You will see following fields if you select Cancellation Charge as a charge type:
+The following table explains the field names and their usage in the Charge Details section:
+Field Name What it does
+Charge Type Enables you to choose a charge type from the drop down list containing following
+option:
+select Cancellation Charge as Charge Type
+Currency This field contains the list of currencies to choose from.
+Charge Mode Enables you to choose a Charge Mode from the drop down list containing following
+options:
+· Fixed
+· Rule Based
+You can select any of the above option. Based on your selection, you will be able
+to see the options explained below in this table.
+Charge This field will be enabled after selecting Fixed charge Mode.
+You can enter a fixed amount for the cancellation charge that will be charged
+against a subscriber’s account whenever he/she cancels or terminate his/her
+subscription.
+Wholesale
+Charge
+This option will get enabled if you choose Fixed Charge Mode. You can define a
+wholesale charge to be used by Partners.
+Note- This field is optional. If left blank the charge amount will be used .
+When a priceplan with cancellation charge is resold to a partner, a Wholesale and
+retail priceplans will get created with cancellation charge. However only a retail
+priceplan cancellation charge will be applied for any cancellation.
+Setup Rule This option will get enabled if you have selected Rule Based Charge Mode for
+cancellation charge definition.
+For more details on Setting up Rules, See Rule Based Charge
+Tax Mode Enables you to select the mode of tax defined in system i.e. Non Taxable, Internal,
+and External.
+Clicking on the More option will bring down following new fields:
+Tax Code- Enter the Tax code configured for Taxation purpose. This field will be available only if you
+have selected External Tax Mode and the Avalara AvaTax as your External Tax Service provider is
+enabled for you.
+GL Code- Enter the General Ledger Code to be associated with the Cancellation charge for accounting
+purpose.
+GL String - Enter the General Ledger String to be associated with the Cancellation charge for accounting
+purpose.
+Cost- As a provider you can define the Cost the selected price plan of your product. This field is optional.
+The values entered here can be used for Reports to compare provider’s cost vs Partner’s cost.
+Invoice Description - You can enter a description for the charge in the price plan to be used in Invoice.
+This field is fully optional, you can also enter an invoice description at the time of order placement (refer:
+Order Review).
+Note- The priority will be given to the description entered at the time of order placement After furnishing all the information for cancellation charge, click on Create Price Plan Button. The
+cancellation charge will be successfully created in the system."
+Product-Pricing,,
+Product-Pricing,Applying a cancellation charge when,"A subscriber cancels the subscription (with recurring charge) during a billing cycle and it is not subjected to any refunds : If a subscription is canceled in the middle of a billing cycle and buisenss wants to apply a cancellation charge but don't want to process a refund, in this case, the proration settings should not be applied on the price plan and the cancellation charge should be associated with the price plan. This can be achieved in two steps: 1- Set Proration as “None”. 2- Associate the cancellation charge to the price plan Setting Proration as “None”: 1. Create a Recurring Charge for the selected price plan. 2. Enter all the details for the charge definition. 3. Select"" None"" option in “Prorate for” field during charge definition of a recurring charge Type. See the Proration settings in the image below: 4. Then create the Cancellation charge and associate with the same price plan. It will "" allow the system to calculate only cancellation charge if the subscription is cancelled during billing period and there is no refund to be processed. If a subscriber cancels a subscription before end of the term: If a subscriber purchased a plan with a term and cancels it before the end of the term, In this case if business wants to apply a cancellation charge for the remaining term for the subscription then a Rule Based Cancellation charge will have to be configured."
+Product-Pricing,Rule Based Cancellation Charge,"To apply a cancellation charge on a subscription with pre-defined Term and Recurring charge type, Business may need to create Rule Based Cancellation Charge. OneBill allows you to create set of rules to apply cancellation charge using Operators and attributes. To create a Rule Based Cancellation Charge: 1. Create the Price Plan for the selected product as explained in Price Plan section 2. Go to charge Details section under Price Plan and select Cancellation Charge as Charge Type 3. Select the Currency for the cancellation charge 4. Select Rule Based under Charge Mode 5. Click on Setup Rule link to create the rule for the cancellation charge The Business rules screen appears,
+6. Enter a name for the rule in ""Give Rule a Name"" field. Configure all of the other fields as described
+below. In this section, you can setup a rule to determine how the cancellation charge is applied. Enter a rule name
+to identify the rule. After entering a Rule name, you can define the criteria used to apply the cancellation
+fee using the WHEN section. You can choose properties like the subscriber properties, subscription
+properties etc to setup the rule criteria. You can choose one or more fields in the cancellation fee criteria.
+Once the criterion is defined, use the THEN section to specify the action.
+See Create Rules, to find how to use Rule Operators
+Attributes for When & AND Operators to create Rule Based Cancellation Charge:
+Use following attributes Under Subscription attributes for Rule operators (When, AND) to create a rule
+based cancellation charge.
+Total Term, Remaining Term, and Used Term under:
+Total Term - Indicates the predefined ""Term"" for which the subscription was purchased, e.g. 12 Months, 6
+Months, etc.
+Remaining Term - Indicates the remaining term of the subscription after it is canceled. It gets effective
+from the cancellation date. For example, If a subscription with 12 months of Term, gets canceled after 8
+months, then the remaining term will be 4 months.
+Used Term - Indicates the Term used for the subscription till the date when the subscription was canceled.
+For example, If a subscription with 12 months of Term, gets canceled after 8 months, then the Used term
+will be 8 months.
+Attributes for Then Operator:
+The following choices are available to apply rule-based cancellation charge:
+-Remaining Term Unit Price
+-Unit price
+- Final Price
+Remaining Term Unit Price -> Calculates the cycle fee setup in the rule to apply the charges on
+cancellation If this option is selected then charges will be calculated and applied according to the following formula:
+Remaining Term * quantity * price defined in the rule
+For example: If a subscription with 2 Quantity and 12 months of term gets canceled after 8 months, and
+remaining term unit price is set as $10 in the rule, then the charge applied to the remaining term will be:
+4* 2*10 = $80
+Important to Know:
+If the Remaining Term option is selected for a rule and is associated with a subscription(price plan)
+which doesn't have Term then remaining term will be considered as 1.
+This option is available only for cancellation charge rules.
+Note: Even though these three options are available for non-cancellation charges rules, these attributes
+should not be used. If these are used for non-cancellation charges rules then those conditions evaluate to
+false.
+Unit Price - Indicates a fixed unit charge to be applied on Cancellation. In this case, the cancellation
+charge is calculated as quantity * price. For example, If a subscription with 2 quantity has a $10 price then
+the unit price will be calculated as $20.
+Final Price - Indicates a fixed total price of the subscription. This option does not consider the quantity for
+calculating the cancellation charges.
+Note- You can apply cancellation charge for future dated cancellations as well.
+Eg: Subscription is purchased on Jan1st 2015 with 12 months term with 2 quantities and if this
+subscription is getting canceled with an effective date as May 15th, 2015 then the above variables values
+will be calculated as:
+Total term = 12
+Remaining Term = 7.55
+Used Term = 4.45
+For this scenario, a rule can be defined as: As per the rule definition cancellation charge will be 7.55 * 2 * 0.5 = $7.55
+The system will apply this rule based charge on the subscription for the cancellation before completing its
+term."
+Product-Pricing,Aggregation Charge,"Business may need to apply specific charges to a subscription at the time of bill finalization, this can be done by setting up Bill time Charge. Bill Time charge can be applied by associating counters to a price plan. It captures the counter value after rating/counting the events using the counter associated with the price plan. It helps business to determine the total charge accumulated at the time of bill finalization with the help of counters. Points to be considered: Enables the user to associate multiple counter to a plan. You can associate those counters to the Bill time charge that is already associated with the priceplan. User will be able to add Bill Time Charge even though charge is configured with rating type as ‘Count Only/Rate & Count/Rating’ . See Counters. When a user selects “BillTime” as chargeType, “Counter” list box will display all the counters available in the system. A price plan can have “BillTime” charge irrespective of counter associated to that plan and user can add “BillTime” charge to a plan which can have any other charges types e.g. OneTime, Recurring , Metered, Markup etc. User can add multiple “BillTime” charge to a plan and all can have same UOM but different counters. When a user edits associated counter, a different version of the charge will be created. User can add ‘BillTime’ charge even after the plan is purchased. In this case new price plan event and price plan charge will be created. Bill Time charge does not contain Order quantity . When provider resells product which has ‘BillTime’ , a partner/provider can only edit charge of a Master Copy. Tax Code - Enter the Tax Code configured for taxation purpose.
+Invoice Description - You can enter a description for the charge in the price plan to be used in the
+invoice. This field is fully optional, you can also enter an invoice description at the time of order placement
+or even after an order has been placed.
+Note- If you have not entered any description here, priority will be given to the
+description entered at the time of order placement.
+After furnishing all the information for ad-hoc charges, click on Create Product Button to create the product
+with Bill Time charge. "
+Product-Pricing,Add Discount,"Discounts defined in the Promotion section can be linked to a Price plan charge by using the Add A Discount button. To add a discount to a charge, the user should have already defined the discounts in the Promotion section. If there are no discounts defined, a new discount can be added as explained in Discounts section To add a Discount for the Price Plan
+Discounts can be added to an existing price plan or while defining a new price plan. Discount can be created by clicking on
+Add A Discount button in the Charge Details section.
+1. Click on Add a discount button. The list of discounts defined in the system would be shown as displayed below.
+2. Choose a discount that is required to be setup for the charge and click on Update button to attach the discount to the
+charge. Discount would be added to the Price plan."
+Product-Pricing,Defining Suspension Charge,"A suspension charge is an amount which is charged by a provider to a subscriber, due to the suspension of a subscription for a specific period. The suspension charge needs to be defined as an additional charge type while defining a product in the OneBill application. This charge must be associated with a price plan in the product."
+Product-Pricing,How to setup the suspension charge?,"In order to set-up the suspension charge in the OneBill application, the user must perform the following actions: 1. Navigation: The user must first navigate to the suspension charge option. Click on the Products option under the Pricing Studio menu in the left panel. The product listing page appears. 2. Click on the Create Product button. The create new product page will appear. The user must enter the
+appropriate information in the given fields.  3. Scroll down to the Charge Details section and click on the Charge Type drop-down. Select
+Suspension Charge from options available in the drop-down. The charge details section adjusts
+itself accordingly. A set of new fields corresponding to Suspension Charge appear. "
+Product-Pricing,Conditions to setup Suspension Charge,"What are the conditions to set-up the suspension charge? The suspension charge type is added to a price plan while creating a product. However, there are a few restrictions to it as well. Following are a few of the conditions which must be met in order to successfully set-up the suspension charge: 1. A suspension charge is applicable only if there is a Recurring Charge associated with the same price plan. 2. A suspension charge cannot be defined in a product price plan if the price plan contains another feature based charging. 3. The Suspension Charge is a rule-based charge. What would happen if there is no recurring charge type in the price plan? If there is no Recurring Charge type in the price plan, the system would allow the user to create a suspension charge along with the product without any error. However, the suspension charge will not be applied in the case of the suspension of the subscription. What would happen if the user adds a feature based charge to the price plan? In this case, the user won't be able to create the product and the OneBill application will display an error. What if the user does not want to refund upon suspension or charge the subscriber upon resume? The CHARGE_DURING_SUSPEND_OR_RESUME is a configuration parameter and is used to determine the refund and charging possibilities upon the suspension of a subscriber's subscription. There are two scenarios which are possible in a case when a subscriber's subscription is suspended. Each of the corresponding scenarios has been explained below with appropriate examples. Case 1: CHARGE_DURING_SUSPEND_OR_RESUME is set to ENABLED. In this case, let us assume that the subscriber's subscription is suspended on the 21st of May. Let us say that the billing day of the month is the 1st. After the subscription is suspended, the subscriber will be refunded the prorated amount from 21st May to the 31st of May. If the subscriber wishes to resume the subscription on the 25th, then the subscriber will be charged from the 25th to the 31st of May.
+Case 3: CHARGE_DURING_SUSPEND_OR_RESUME is set to DISABLED. In this case, let us assume that
+the subscriber's subscription is suspended on the 21st of May. Let us say that the billing day of the month
+is the 1st. So, on the first of June, the suspension charges will be applied. After the subscription is
+suspended, we're considering that the subscription was resumed on the 15th of June. In such a scenario,
+the subscriber will not be refunded any amount."
+Product-Pricing,Setting up rule for suspension charge,"Users can set up a rule-based suspension charge for their subscribers. In order to set up a rule-based suspension charge, perform the steps given below: 1. The user must perform the create a new product or edit an existing product operation based on their requirement. The product information page will appear. 2. In the product info page, enter or edit the product information, price plan information and charge details as per your requirements. 3. After finishing the aforementioned tasks, configure the suspension charge as mentioned below. 4. Select the Suspension Charge option from the Charge Type drop-down present in the CHARGE DETAILS section. 5. Configure the rule for the suspension charge from the business rule screen which appears by configuring the various fields accordingly. 6. Click the save button to save the rule. 7. Click on the Create Product button to create the product with the suspension charge. Field Descriptions Give Rule a Name: This is the name of the rule which you wish to create. WHEN: This is the first condition in the rule. You can select one of the following to be the first WHEN condition. 1. Created Date: This is the date on which a subscriber was created in the OneBill application. 2. Payment Method: This is payment method which has been set up for a subscriber. 3. Type: This is the type of the subscriber account i.e. Individual or Business account.
+4. Account Name: This is the account name which is associated with a subscriber.
+5. Primary Currency: This is the primary currency which has been set up for a subscriber.
+6. Account Number: This is the account number of a subscriber account.
+7. Custom Fields: The list will also populate any subscriber level Custom Fields which have been
+defined in the application.
+You can select the following to be the first operator.
+1. Between
+2. Equal To
+3. Not Equal To
+4. Less Than
+5. Greater Than
+6. Less Than or Equal To
+7. Greater Than or Equal To
+Set the From Date if required.
+Set the To Date if required.
+'+': Click on the plus icon to add a second WHEN condition and so on.
+THEN: This is the action part of the rule. The THEN condition determines the action which needs to be
+taken if the WHEN condition is fulfilled.
+Select of the following to be the THEN condition criteria.
+1. Full MRC: Choose this option if you wish to charge the full MRC amount upon suspension.
+2. No Charge: Choose this option if you do not wish to charge any amount upon suspension.
+3. Percentage of MRC: Choose this option if you wish to charge a percentage of the full MRC
+amount upon suspension.
+4. Suspension Charge: Choose this option if you wish to define a fixed charge upon suspension."
+Product-Pricing,Use case Scenario for suspension charge,"The following are a few of the use case scenarios for better understanding. The following cases aim to explain how a subscriber will be charged depending on the rule as set up above. Let us assume that a subscription is suspended on the 10th of June. We also assume that the subscription was resumed on the 5th of July, the following month. Let us assume that the billing day of the month is 1st of every month. Let us also assume that the CHARGE_DURING_SUSPEND_OR_RESUME parameter has been Enabled. 1. Full MRC: If Full MRC has been set as the THEN condition then the following happens. The subscription will be suspended on the 10th of June. The prorated amount for the period of 11th June to 30th June will be refunded to the subscriber. The invoice will be generated on the 1st of July with the suspension charge in it.
+The suspension charge amount will be the full recurring charge amount as set in the product
+definition.
+The subscription will resume on the 5th of July.
+The system will charge for the period of 5th of July to 31st of July which will be included as part of
+the July Invoice which gets generated on the 1st of August and it will not contain any suspension
+charge.
+2. No Charge: If No Charge has been set as the THEN condition then the following happens.
+The subscription will be suspended on the 10th of June.
+The prorated amount for the period of 11th June to 30th June will be refunded to the subscriber.
+The invoice will be generated on the 1st of July with no suspension charge in it.
+The subscription will resume on the 5th of July.
+The system will charge for the period of 5th of July to 31st of July which will be included as part of
+the July Invoice which gets generated on the 1st of August and it will not contain any suspension
+charge.
+3. Percentage of MRC: If Percentage of MRC has been set as the THEN condition then the following
+happens.
+The subscription will be suspended on the 10th of June.
+The prorated amount for the period of 11th June to 30th June will be refunded to the subscriber.
+The invoice will be generated on the 1st of July with the suspension charge in it.
+The suspension charge amount will be a percentage of the recurring charge amount as set in the
+product definition.
+The subscription will resume on the 5th of July.
+The system will charge for the period of 5th of July to 31st of July which will be included as part of
+the July Invoice which gets generated on the 1st of August and it will not contain any suspension
+charge.
+4. Suspension Charge: If Suspension Charge has been set as the THEN condition then the following
+happens.
+The subscription will be suspended on the 10th of June.
+The prorated amount for the period of 11th June to 30th June will be refunded to the subscriber.
+The invoice will be generated on the 1st of July with the suspension charge in it.
+The suspension charge amount will be a fixed amount as defined in the rule above.
+The subscription will resume on the 5th of July.
+The system will charge for the period of 5th of July to 31st of July which will be included as part of
+the July Invoice which gets generated on the 1st of August and it will not contain any suspension
+charge.
+"
+Product-Pricing,Add a Trial,"Trials enable a business to offer their products for free or a reduced price for a specified period, so that the business can let their subscribers try their product before they buy it. When the business user creates a new price plan, the user can also attach a trial to the price plan. To add a Trial definition for the Price Plan Trials can be added to an existing price plan or while defining a new price plan. Trials can be created by clicking on Add Trials at the right side options in the products screen. 1. Click on Add button next to the trials on the RHS as shown below 2. Selecting the Add Trial option opens up a section to provide the trial information. By default the information provided in
+this section will enable a 30 day trial at no cost. Also at the end of the trial, the subscription will be cancelled. 3. Trial Period is a combination of a trial period value and a trial period unit. Trial period unit will be set to days by
+default, and the user will be able to select weeks / months / years as well.
+4. Trial Discount will specify the promotional price provided at the time of trial. By default this field will be set to 100%
+which implies that the user gets the product for free. A value less than 100% can also be provided. 5. What should happen to the subscription after the trial expires will control the subscription linked to the trial.
+This can take one of the below values.
+Terminate Subscription after trial: This will be the default option when a trial is added. If this option is selected, the
+subscription will expire at the end of the trial period.
+Continue as a paid subscription: Selecting this option will continue the subscription with a paid price plan at the
+end of the trial period. The discount defined as part of the trial will not be applicable at the end of the trial period
+A subscription expiry alert helps in notifying the subscriber about the trial expiry, so that they can take an appropriate
+action. This alert can be configured from the alerts section. "
+Product-Pricing,Associate Grants with the Product,"Once you have created a Grant, you can associate it with your product. To associate a grant with your product, follow these steps: 1. Go to main navigation menu on the left panel and select Products under Pricing Studio. The Products page appears with product catalogue 3. Select the product that you want to associate with the grant. The Product Details page appears. 4. Select Grants from the section "" You can also Add"" at the right hand side of the screen.
+ As the name suggests, this section allows you to add Price plans, Trials and Grants to your product.
+5. Click on ""Add"" next to Grants option.
+This action will take you to a section where all the Grants are listed. You can choose the grant you want to link with your priceplan This section displays the list of grants available in your system.
+7. To Select the grant, check the box against the grant name you have selected. You can add one or
+more grants to a price plan. Please note that there would be a scroll bar shown if the number of Grants is
+greater than 3 or 4. You can use the same to look at the list of all grants defined.
+8. Click Update.
+ It will update the product details with the grant you have associated with "
+Product-Pricing,Product Dependency,"The product dependency functionality in intended to allow users to create and sell products which are linked to other products. The interlinking allows for the user to not only sell one product but sell multiple products as part of a single order. For example, if a user wish to sell a mobile phone to their subscriber but is also interested to encourage their end subscribers in purchasing a set of headphones, they can do so by using the product dependency. In the aforementioned case, the end subscriber will have to purchase the earphones (dependency product) as a mandatory in order to be able to purchase the mobile phone (dependent product). Dependent Product: A product which depends on one or more products. Dependency Product: A product on which another product depends on."
+Product-Pricing,How Add dependencies:,"The following are the steps to add one or more dependencies to a product. 1. Hover your mouse over the Pricing Studio menu to the left. A list of options will appear. 2. Click on the Products option from list of options which appear.
+The Product Listing screen is displayed. 3. Once you're in the Product Listing screen, click on the Create Product button.
+You will be redirected to the create a product page. 4. After landing on the create a product screen, enter all the valid information for the product that you're
+creating such as Product Info, Price Plan Info, and Charge Details. After entering all the details,
+click on the Add button beside the Dependencies option to the right of the screen.
+This will open the slider window to add dependency products. 5. Once the slider opens, search for the category from the Category Name drop-down and then click on
+the search button directly. This will list all the products which belong to that category. Alternately, You
+can also type in the product name in the search bar and then click on the search button too. Check
+the products which you wish to include as part of the dependency as shown in the image below. 6. Click on the ""X"" button on the top left of the slider to save the dependency products.
+You can view the dependency products on the create product page under the DEPENDENCIES
+section.
+Under the section, you can also choose the Dependency Type to be All or Any.
+All: All the dependency products must have to be purchased in order to purchase the main product.
+Any: One or more dependency products have to be purchased in order to purchase the main product. 7. Click on the CREATE PRODUCT button at the bottom of the page to create the product with defined
+dependencies. 8. A success message appears on the screen "
+Product-Pricing,What happens after a product is created with dependencies?,"When a product is linked to one or more dependency product(s), the end subscriber will then have to purchase the dependency product(s) based on the Dependency Type in order to purchase the dependent product. "
+Product-Pricing,Add dependency product to an existing product,The following document explains the flow of operations for adding a product to an existing product as a dependency. Scope Add a product as the dependency product to another product which then becomes the dependent product. Both products have already been created in the system.
+Product-Pricing,Steps to add a device to a product,A user can choose to associate a device to a product. The product can have multiple devices associated with it. All the devices associated with a product will be available for purchase to the subscriber. A user can choose to make a device mandatory for purchase as well. All of it has been explained in detail in the sections which follow. 
+Product-Pricing,What are the steps to add a new device to a product?,"1. Click on the Products option under the Pricing Studio menu in the main menu panel. This operation will take the user to the product listing screen. 2. In the product listing screen, click on the Create Product button. The user can associate a device while
+creating a product. 3. Once the user clicks on the Create Product button, the user is redirected to the create product page.
+In this page, the user must click on the DEVICE button to the right of the screen. It can found under
+the ""You can also add"" category. Click on the Add button beside the DEVICE option. 4. Once the user clicks on the add button, a DEVICE INFO section is added above the price plan. The
+device info section comprises of the list of all the devices which can be associated with the product.
+5. To associate any of the devices with the product being created, check the checkbox beside it. 6. Enter the other details and click on Create Product."
+Product-Pricing,Pricing Approval,"Business needs an approval mechanism to validate or oversee the price of a product to be suited for business as well as for the consumers. At the time of a product creation, OneBill introduces a Pricing approval process to ensure a valid and legitimate pricing for products before it is put up on Sale. The Pricing approval process in OneBill: Establishes control and transparency during product pricing. Better handling of product pricing strategy. Provides authorization and controlled access of pricing data at the time of product creation. Reduces the dependency on an individual to set the price of the product or feed the product data. Controls the effects of change in product price or edit in product details. Validates the product price at several level. OneBill allows to create approvers in the system and assign them the task of approving a product before it is ready for subscription. Business can incorporate its Product, Marketing and Sales team in the approval process and contribute to the final outcome of the product price. The product price can be approved in a single approval process or else you can also set multiple levels of approval process before getting a final price of your product. The Different levels of pricing approval contribute to the better handling of pricing strategy in an organization with better transparency and control to the product pricing. "
+Product-Pricing,Edit Product,"After you have created a product, you may need to edit certain information (product information, price plan and charge details) about the product or add additional details and images to it. You can use the Edit Product option in Product Listing page to modify the product details. You can also submit new product information to a page when you edit your existing listings. Perform the following steps to edit a product: 1. Navigate to Billing Configurations> Product. The Products page appears. 2. Select a product you would like to modify. Select View/Edit from the action button corresponding to the product you would like to modify the details for. If you have a listing for a product, you can edit or modify the product information.
+To modify the product information, perform the following operations:
+1. Navigate to Billing Configurations> Product > select a product > View/Edit product from action
+menu.
+Alternatively, you can also click on the Product name from the Product listing page and view the
+Product details.
+The View Product page is displayed.
+2. Select Edit button to modify the product information. 
+3. Enter the new product information for the respective fields.
+Before the product is used, the following fields in the product can be modified:
+Product Name
+Product Image
+Product Description
+Product Category: You can add one more category or even delete the existing category.
+Available From date of the product. This date cannot be set in the past, but can not be updated to a
+future date.
+Available To date of the product.
+Product Description
+Available From date of the product. This date cannot be set in the past, but can be updated to a
+future date.
+Available To date of the product"
+Product-Pricing,Edit Price Plan,"To modify the price plan information, perform the following operations: 1. Navigate to Billing Configurations> Product > select a product > View/Edit product from action menu. Alternatively, you can also click on the Product name from the Product listing page and view the Product details. The View Product page is displayed. Scroll down to the Price Plan section. 2. Select Edit button to edit the details of the price plan 3. Enter the new information for the modified price plan.
+The following fields for the price plan can be modified:
+Price Plan Name
+Price Plan Description
+Price Plan Available From date. This cannot be date in the past.
+Price Plan Available To date
+Price Plan Term
+Price Plan Period.
+Price Plan End of Term Action.
+Priority
+Price Plan Code.
+Provisioning
+Advance charges for
+Price Plan Renew Automatically option
+4. Select Update to update the changes."
+Product-Pricing,Clone Price Plan,"A user can create a new priceplan by cloning an existing price plan. This would enable a user to quickly copy an existing plan and edit few fields to create a plan. All the plan level and charge level fields will be copied to the new plan. To clone a price plan: 1. Select the price plan of the product for which the price plan is to be cloned. Navigate to Pricing Studio> Product > select the product > View/Edit product from action menu. Alternatively, you can also click on the Product name from the Product listing page and view the Product details. The View Product page is displayed. Scroll down to the Price Plan section. 2. Maximize the price plan 3. Click on button.
+ 4. A pop up window is displayed to let user provide a new price plan name.
+Type in the New Price Plan Name and click on OK. 5. All the plan level and charge level fields will be cloned and the New Price plan is created. At this point
+the user can edit the price plan and update the relevant fields.
+Note: Default Availabe - From date will be set to current date and Available - To will be set to forever(Does
+not expire), if no changes are made on date. "
+Product-Pricing,Edit Charge Details,"To modify the charge details of the product and price plan, perform the following operations: 1. Navigate to Billing Configurations> Product > select a product > View/Edit product from action menu. Alternatively, you can also click on the Product name from the Product listing page and view the Product details. The View Product page is displayed. Scroll down to the Charge Details section. 2. Select Edit button to edit the details of the charge. 3. The following edits can be done in this section
+Charge Mode: The user can update the charge mode of an existing charge from Fixed to Onetime
+or vice versa. This change is allowed even after the product is sold to a subscriber. Any changes
+made to the charge mode can be applied to all subscribers or it can only be allowed only for new
+subscribers.
+Charge amount: The user can update the charge amount of an existing charge. This change is
+allowed even after the product is sold to a subscriber. Any changes made to the charge mode can
+be applied to all subscribers or it can only be allowed only for new subscribers.
+Wholesale Charge : The user can update the wholesale charge amount of an existing charge.
+This change is allowed even after the product is sold to subscriber or after the product is resold to a partner. Any resell that is enabled post the change would use the new Wholesale charge for
+settlement. Please note that the change of wholesale charge is not reflected for any partner resell
+that was done before the change.
+Invoice Description : The user can edit the invoice description. Any charges generated post the
+change would use the updated value for the invoice description.
+Prorate Flag: The proration flag can be updated post the plan / bundle purchase as well. Edit of
+proration settings is allowed at priceplan and bundle level(base priceplan, retail priceplan, partner
+own priceplan and bundle). Any update to the proration settings would impact all existing
+subscribers as well as new subscribers. Any rating happening post the change(purchase / cancel /
+change) would go with the current value of the prorate flag.
+Tax Code : The user can edit the tax mode as well as the tax code associated to a charge before
+or after the sale of the product / priceplan. Please note the changes made to tax code would be
+applicable for all subscribers in the system. Any rating that happens on the product post the
+change(cancel / purchase / change) would consider the new tax code.
+GL Code: The user can edit the GL Code associated to a charge before or after the sale of product
+/ priceplan. Please note that any changes made would be applicable to all subscribers in the
+system. Any charge generated post the change would be reflected against the new GL Code.
+GL String: The user can edit the GL String associated to the charge before or after the sale of
+product / priceplan. Please note that any changes made would be applicable to all subscribers in
+the system. Any charge generated post the change would be reflected against the new GL String. 4. Select Update to update the changes."
+Product-Pricing,Add Price Plan and Charge Detail during modifying a product,"You can add another price plan and charge detail to the product page while editing the product. To add a price plan, perform the following operation: 1. Navigate to Billing Configurations> Product > select a product > View/Edit product from action menu. Alternatively, you can also click on the Product name from the Product listing page and view the Product details. The View Product page appears. 2. Select Edit button to modify the product information. The Edit Product page appears. 3. Select Add button corresponding to the price plan to include a different price plan to the product. The new price plan and charge detail window appears.
+You can continue to add the price plan and a corresponding charge detail. Refer to Create a Price Plan for
+the Product.
+You can also include an additional charge detail to the existing price plan. Select Add button
+corresponding to the charge detail.
+The Charge detail screen appears."
+Product-Pricing,How to add SureTax tax codes to the products configured in OneBill,"The following tutorial explains how to apply tax codes after configuring the product in OneBill. A non-taxable product can be made taxable while editing the product price plan in OneBill. Let’s assume you have created a product without applying tax codes to it. And now you want to make the product taxable and associate a valid tax code to it. In that case, follow these steps to apply the necessary tax code to make the product taxable: 1. Go to the Products page and locate the to which you need to add the tax code. 2. Go to the CHARGE DETAILS section under the PRICE PLAN of the product to which the tax code is to be added. 3. Click on the edit icon in the CHARGE DETAILS icon. 4. Select ‘External’ as the value for the TaxMode field. 5. When you change the value to ‘External’, the application will navigate you to the ‘PRODUCT INFO’ section and prompt you to select a tax regulatory code for an external tax mode. 6. Apply the appropriate ‘Tax Regulatory Code’ applicable for the product. 7. Once the Tax Regulatory Code is applied, click on the ‘Update’ button to save the PRODUCT INFO details. 8. Now, go back to the CHARGE DETAILS section and again change the ‘TaxMode’ value to ‘External’. 9. You will see that there are 2 additional fields that show up – Service Group Name and Transaction Type Code. Note- SureTax determines the Transaction Type Code based on zip codes in subscriber's address. For more details, see SureTax Taxation 10. Now, refer to the SureTax Service Group mapping and search for the tax code that has to be applied. For example, if you need to apply ‘010101’ as the tax code, search for ‘010101’ in the SureTax Service Group mapping and you can see that it belongs to ‘Long Distance’ Service Group. 11. In the CHARGE DETAILS section in the application, under the Service Group Name dropdown select ‘Long Distance’ as the value. 12. When you select a value in the ‘Service Group Name’ dropdown, you can see that the transaction type codes belonging to that Service Group is automatically populated. 13. Select ‘010101’ in the Transaction Type Code dropdown and click on the ‘Update’ button
+to save the settings.
+Since it a change in the price plan, a new version of the charge will be created in the
+system, and you will be asked to choose an option to apply the new charge version to all
+existing subscriptions of this price plan or only to the New subscriptions.
+After choosing this charge versioning option , click OK.
+14. The tax code is successfully applied to the product."
+Product-Pricing,Clone Product,"This option helps you to copy the existing feature of the product and quickly create another product with similar features and attributes. To clone a product, perform the following steps: 1. Navigate to Billing Configuration > Products > select Product. The Product Details page appears. 2. Select the product you wish to clone and select the Clone option from the drop-down menu of the action button on the right 2. Enter the name for the new product and click OK.
+A message displaying the successful status of the cloning is displayed as shown in the image below,
+The new product created would have the same details as the original product. The only difference would
+be the name of the product, and the Available From dates."
+Product-Pricing,Export a Product,"This option exports the product data of all active Products defined in the Product listing page. The data is exported in both the .pdf and Excel format. To export Product details, perform the following steps: Navigate to Billing Configuration > Product. The Product Details page appears To export the list of products in Excel, select . You will be prompted for a file name before you export the data. To export the list of products in a .pdf, select . You will be prompted for a file name before you export the data. "
+Product-Pricing,Delete Product,"The following situations explain the scenarios where you can delete a product: The product (priceplan associated to the product) is retired by the business(not linked to any active / inactive subscription) The product (associated priceplan) is not part of a bundle The product is not resold to any partner To delete a product, perform the following actions: 1. Navigate to Billing Configurations> Product. The Product listing page appears. 2. Select a product you would like to remove and select Delete from the action menu. A pop-up window is displayed asking for confirmation before deleting the product 3. Select OK to delete the product. The user can click on Cancel button to ignore the deletion or if the
+delete option was clicked by mistake.
+A message is displayed as the product being deleted from the product list. The system would show an
+error message if the conditions to allow the product deletion are not satisfied."
+Product-Pricing,Delete Price Plan and Charge Detail,"You can delete a price plan or a charge detail at any time. Please note that there should be atleast one priceplan linked to every product and there should atleast be one charge associated to the priceplan. The price plan can only be deleted if it the following conditions are met Price plan is not associated with an Active / Suspended subscripiton Price plan is not associated with a bundle Price plan is not resold Perform the following steps to delete a price plan: 1. Navigate to Billing Configurations> Product. The Product listing page appears. 2. Select View/Edit from the action button corresponding to the product associated with the price pan / charge that you like to remove. The Product Details page appears with the price plan and the charge details. 3. Select Delete button to remove the price plan. OneBill would ask for a confirmation to delete the
+price plan as shown below. 4. Select Yes to remove the price plan from the product. The user can click on No button if the delete
+was selected by mistake. OneBill would display an error message if the priceplan being deletion
+criteria is not met.
+Similarly, you can delete a charge detail associated with a price plan. Perform the following steps to delete
+the charge detail: 1. Navigate to Billing Configurations> Product. The Product listing page appears.
+2. Select View/Edit from the action button corresponding to the product associated with the price pan
+you like to remove.
+The Product Details page appears with the price plan and the charge details. 3. Select Delete Charge Detail button to remove the charge detail. A pop-up window to confirm the
+operation is shown, 4. Select Yes to remove the charge detail from the product. The user can select the No option if they
+clicked on delete by mistake.
+A successful message confirms the deletion of the price plan and the charge detail."
+Product-Pricing,Add-On Product,"Add on Products are extension of base products. You can create add- on products to complement your base product (or main product) and offer additional features and capabilities relevant to your base product . By adding an Add-on product/service to your product catalog, you can extend the usage and functionality of your base product. For example, If you have created a Base product of “VOIP Services” in product catalog (See: Create Product), you can also create an Add-on Product of “VOIP Add-on Cards” to complement the services of VOIP product. (See: Create Add-on Product) Add-on lets a business customize their product offerings and add extra capabilities/features with a small change pricing. Subscriber has to pay only for what he gets. it gives flexibility to end subscribers to purchase or add the additional features (we call it Add-On)when they need it with base product creating a win-win situation for both, business as well as subscriber. For example, After subscribing to the base product and add-on product, subscriber can cancel or extend the add-on subscription while his/her base product subscription still continues. You can create Add- on Products to:
+Offer more capability, features and variety along with your base product
+Provide additional features or plugins which works best with your base product
+Enhance the capabilities and usage of the base product"
+Product-Pricing,Create Add-On Product,"The process of creating Add-on product is similar to the Base product. You need to create Add on Product Information and Price Plan in a same way as you create for base product. To create an Add-On Product: 1. Go to the main navigational menu in the left panel and select Pricing Studio>Products. 2. Select AddOn from the drop down filter option on Products page 3. Click on Create New Product button.
+The Create New Product page appears.
+4. Enter the Add-on Product details under Product Info Section. 5. All the fields for creating Add on Product Information is same as of Base product , except one
+additional field- Add-on.
+An add-on field is added with the check box that is pre-selected to create an add-on Product.
+This option would tag the product created as an add-on product. After entering the Product Information, create Price Plan and Define the charge details for Add-on
+product.
+The steps for creating Price Plan and charge definition is same as of Base product."
+Product-Pricing,Services,"A business user can define a Service to map the product sold to a downstream service provisioning. The Service definition works along with the provisioning parameter definition under a plan, and the OneBill provisioning module to map the sale of a product to the downstream provisioning. For eg for a user purchasing a HostedPBX, the Service can help setup the users/extensions on the soft-switch as part of the purchase. A Service can be linked to one or more product. That way a common provisioning definition can be used across products. The default view of the service screen shows the service listing as shown below. "
+Product-Pricing,Create a new Service,"This page lets business define a specific Service which can then be linked to a product. You can create a service on the main Service page as can be seen in the image. To create a new Service:
+1. Click on Create Service on the main Service page. 2. Fill in the Service details:
+Give it a Name(Mandatory),
+Description(Mandatory) &
+Service Code(Automatically generated if no value provided).
+1. Check the Provisionable check box to enable provisioning.
+2. Click on CREATE to create the Service or BACK to go back to the Services page.
+3. ‘Success : Service has been saved successfully’. is displayed to ensure that the action is complete on
+successful creation of Service "
+Product-Pricing,Create Services Create selective provisioning,"In order to create selective provisioning of operations on subscriptions, perform the steps given below. 1. Navigate to the Services listing page. (Pricing Studio menu -> Services option) 2. Click on the ""CREATE SERVICE"" button on the top right corner of the screen. The create service page appears. 3. Enter the valid details in this page such as the Service Name, Service Description etc. 4. Check the ""Provisionable"" checkbox at the bottom left corner of the screen. A set of options will appear. 5. Select the operations which you would like to send to the downstream system for provisioning. 6. Click on the ""CREATE"" button to save and apply the changes."
+Product-Pricing,What is provisioning?,"Provisioning is the process of preparing and equipping a network to allow it to provide (new) services to its users. Functions of Provisioning: Automates and tracks activities associated with complex provisioning or network change processes, overseeing timely execution of tasks and in the appropriate order. Reduces the time required to deliver services. Benefits of Provisioning: Speed time-to-market of services by replacing manual processes with automated tasks. Maximize operational efficiency and staff productivity by Flow-through service provisioning reducing work hand-off and cycle times. Increase customer satisfaction by meeting service demands more quickly and accurately. Focus on provisioning exceptions, rather than the entire process. Make business processes visible, auditable and controllable. Significance of Provisionable flag Provisionable flag should only be selected when out of the box provisioning system (ProActive) is procured and set up in an appropriate manner, as per the end-system(customer/business) automation requirement. A service can be marked provisionable by checking the check box provided in the Service page as can be seen in the image below. This enables business a transparency over the provisioning of services. Once a service is marked provisionable, click on UPDATE to save the changes across the Products linked. Provisionable option for a service can be marked Yes/ No before associating it with any product or if the
+associated product is not yet purchased."
+Product-Pricing,View Service Details,"This page describes about how to view details of an existing service To view the details of an existing service:
+1. Click on the Service name that you wish to view. Or
+2. Click on button and Click on View. 
+3.Details about the service are displayed titled as Service Info.
+ 4. Click on BACK button on the bottom right corner or All Services on the top left corner to land on the
+main Service page.
+"
+Product-Pricing,Edit/Update Service Details,"This section guides you on how an existing service details can be edited/updated. To edit or update service details:
+1. Click on the Service name that you wish to view.
+2. Click on the Edit button in the Service Info page.   2. Name, Description and Provisionable can be edited. Service code cannot be changed 3.Click on UPDATE to save the changes made on Service.
+ 4.‘Success : Service has been saved successfully’. is displayed to ensure that the action is complete.
+ 5.Click on CANCEL to go back to the Services page with no changes."
+Product-Pricing,Search an existing service,"This section describes about how an existing service can be searched swiftly. To search an existing Service: 1. Type in the Service to be searched in the search box provided in the Services main page. 2.Service can be searched with the following fields: Service Name, Service code and 3.The search finds the string across
+Service Name,
+Service code or
+Privisional(Yes/No).
+1. Search results are displayed based on above mentioned fields.
+2. If the search does not match any of the criterion, a message as “No matching records found"" is
+displayed.
+3. The number of records displayed in the table will depend on the selection made in the Records per
+page list box. "
+Product-Pricing,Delete Service,"This page describes about how a service can be deleted. To delete an existing service: 1. Click on the button as shown in the image below. 1. Click on Delete.
+2. A pop up message ‘Are you sure you want to delete the record? ‘ is displayed with options to either
+Cancel the deletion or Ok to delete the service in question. 1. Click OK to delete the service.
+2. ‘Success : Service has been deleted successfully’. is displayed on successful deletion of the service. "
+Product-Pricing,Associate/Disassociate a service from a Product,"This page describes about how a Service can be associated to an existing or new Product and how it can be disassociated from the product if need be. In case of a new Product is being created a service can be associated from the field named Service Name as can be seen in the image that follows To associate a service to an existing product:
+1. Select Products from the Pricing Studio. 2.Select a Product for with the service is to be associated. 3.Click on Edit button in Product Info. 4.Select the service name from the drop-down, to which the product is to be associated.
+ 5.Click on Update.
+ 6.The Service name can be seen associated with the product in the Product Info 1. Select Products from the Pricing Studio.
+2. Select a Product for with the service is to be associated.
+3. Click on Edit in Product Info.
+4. Deselect the Service Name selected in the Service Name field.
+5. Click on Update.
+6. The Service name can be seen disassociated from the product in the Product Info."
+Product-Pricing,,
+Product-Pricing,,
+Product-Pricing,,
+Product-Pricing,,
+Product-Pricing,,
+Product-Pricing,,
+Product-Pricing,,
+Product-Pricing,,
+Product-Pricing,,
+Product-Pricing,,
+Product-Pricing,,
